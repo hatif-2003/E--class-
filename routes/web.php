@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\AttendanceController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ProfileController;
@@ -44,7 +45,11 @@ Route::middleware("auth")->group(function () {
         Route::resource("categories", CategoryController::class)->except("show");
           Route::resource("courses", CourseController::class);
           Route::get('/payment', [PaymentController::class, 'showPayment'])->name('admin.payment');
+          Route::get('/attendances', [AttendanceController::class, 'index'])->name('admin.attendance');
+          Route::post('/attendances/store', [AttendanceController::class, 'store'])->name('admin.attendance.store');
       });
+
+     
       
 
     });

@@ -10,7 +10,7 @@
             <a href="#">Add Student</a>
             <a href="{{ route("admin.manageadmission") }}">Manage Admission</a>
              <a href="{{ route("admin.managestudent") }}">Manage Students</a>
-            <a href="#">Attendance</a>
+            <a href="{{ route('admin.attendance') }}">Attendance</a>
         </div>
         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-book"></i> Courses <i class="fas fa-chevron-down"></i></a>
         <div class="dropdown-menu">
