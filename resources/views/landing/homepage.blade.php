@@ -8,7 +8,7 @@
         <div class="text-center">
             <h2 data-aos="fade-up">Why Choose Our Coaching Platform?</h2>
             <p class="subtitle" data-aos="fade-up" data-aos-delay="100">
-                Empower your learning journey with cutting-edge features designed for success.
+                Empowers your learning journey with cutting-edge features designed for success.
             </p>
         </div>
         <div class="row">
